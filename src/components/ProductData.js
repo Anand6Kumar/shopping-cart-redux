@@ -1,4 +1,4 @@
-const products= [
+const Products = [
     {
         "id":1,
         "image": "https://w7.pngwing.com/pngs/462/672/png-transparent-feature-phone-smartphone-cellular-network-phone-gadget-phone-icon-mobile-phone-thumbnail.png",
@@ -21,3 +21,4 @@ const products= [
         "price": "$50"
     }
 ]
+

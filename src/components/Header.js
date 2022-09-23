@@ -3,16 +3,17 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Badge from '@mui/material/Badge';
 import Nav from 'react-bootstrap/Nav';
-import { navitem1,navitem2,navitem3 } from '../constants/Constant';
+import { NAV_ITEM_SHOPPING_CART,NAV_ITEM_HOME,NAV_ITEM_ADD_TO_CART } from '../constants/Constant';
+import { NavLink } from 'react-bootstrap';
 
  const Header = ()=>{
     return(
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#shopping cart">{navitem1}</Navbar.Brand>
+          <NavLink to="/">{NAV_ITEM_SHOPPING_CART}</NavLink>
           <Nav className="me-auto">
-            <Nav.Link href="#home">{navitem2}</Nav.Link>
-            <Nav.Link href="#Add to cart">{navitem3}</Nav.Link>
+            <Nav.Link href="#home">{NAV_ITEM_HOME}</Nav.Link>
+            <Nav.Link href="#Add to cart">{NAV_ITEM_ADD_TO_CART}</Nav.Link>
           </Nav>
           <Badge badgeContent={1} color="primary">
           <i class="fa-sharp fa-solid fa-cart-shopping text-light" style={{fontSize:25,cursor:'pointer'}} ></i>
@@ -25,3 +26,4 @@ import { navitem1,navitem2,navitem3 } from '../constants/Constant';
 }
 
 export default Header;
+
