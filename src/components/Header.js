@@ -16,7 +16,7 @@ import { NavLink } from 'react-bootstrap';
             <Nav.Link href="#Add to cart">{NAV_ITEM_ADD_TO_CART}</Nav.Link>
           </Nav>
           <Badge badgeContent={1} color="primary">
-          <i class="fa-sharp fa-solid fa-cart-shopping text-light" style={{fontSize:25,cursor:'pointer'}} ></i>
+          <i  className="fa-sharp fa-solid fa-cart-shopping text-light " ></i>
     </Badge>
           
         </Container>
