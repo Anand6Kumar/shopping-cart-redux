@@ -1,0 +1,8 @@
+.card{
+    width: 18rem;
+}
+
+.fa-sharp fa-solid fa-cart-shopping text-light{
+    font-size: 25;
+    cursor: pointer;
+}
